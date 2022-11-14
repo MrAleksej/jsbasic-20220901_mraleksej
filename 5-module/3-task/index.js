@@ -16,7 +16,7 @@ function initCarousel() {
       nextButton.style.display = ''
       prevButton.style.display = ''
     }
-  })
+  });
 
   prevButton.addEventListener('click', () => {
     countClick = --countClick
