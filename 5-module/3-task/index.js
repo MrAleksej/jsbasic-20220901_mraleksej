@@ -1,10 +1,10 @@
 function initCarousel() {
   // ваш код...
-  const carousel = document.querySelector('.carousel__inner')
-  const carouselWidth = carousel.offsetWidth
-  const nextButton = document.querySelector('.carousel__arrow_right')
-  const prevButton = document.querySelector('.carousel__arrow_left')
-  let countClick = 0
+  const carousel = document.querySelector('.carousel__inner');
+  const carouselWidth = carousel.offsetWidth;
+  const nextButton = document.querySelector('.carousel__arrow_right');
+  const prevButton = document.querySelector('.carousel__arrow_left');
+  let countClick = 0;
 
   prevButton.style.display = 'none'
   nextButton.addEventListener('click', () => {
